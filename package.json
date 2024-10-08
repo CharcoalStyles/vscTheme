@@ -1,0 +1,25 @@
+{
+  "name": "nier-automata-interface",
+  "displayName": "Nier:Automata interface",
+  "description": "A VS code theme based on the Nier:Automata UI.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aaron-Styles/vscTheme"
+  },
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nier:Automata interface",
+        "uiTheme": "vs",
+        "path": "./themes/NierAutomata-interface-color-theme.json"
+      }
+    ]
+  }
+}
